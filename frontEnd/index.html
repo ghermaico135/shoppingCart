@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoppingCart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="menu">
+        <a onclick="handler(event)" class="shopBtn">ShoppingCart</a>
+        <a onclick="handler(event)" class="cartBtn">ViewCart</a>
+    </section>
+
+    <section class="shop">
+        <div class="item-container">
+
+        </div>
+    </section>
+
+    <section class="cart">
+        <table>
+            <thead class="thead">
+                <tr>
+                    <th colspan="2">Item</th>
+                    <th>Price</th>
+                    <th colspan="2">Quantity</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                <tr class="totalRows">
+                    <td colspan="5">Total: 0.0</td>
+                </tr>
+            </tbody>
+            
+        </table>
+        <button class="btn checkout">Checkout</button>
+    </section>
+
+    <script src="./script.js" defer></script>
+</body>
+</html>
+
+<script>
+    function handler(event){
+        event.preventDefault();
+    }
+</script>

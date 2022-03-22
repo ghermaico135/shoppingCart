@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+body {
+    padding: 4rem 8rem;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #ddd;
+}
+
+.menu {
+    text-align: center;
+    font-size: 4rem;
+    margin: 3rem 0;
+}
+
+.menu a {
+    text-decoration: none;
+    background-color: lightsalmon;
+    padding: 1.5rem 2.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 10px #707070;
+    color: purple;
+}
